@@ -14,4 +14,3 @@ def homeview(request) :
 
         return redirect(homeview)
     return render(request, 'home.html', {})
-
