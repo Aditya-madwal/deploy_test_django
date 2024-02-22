@@ -66,11 +66,11 @@ WSGI_APPLICATION = 'workspace2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'PORT':53779,
-        'PASSWORD':'Fc6eada4DbD2BdEgD--3f66b5Cf*c2gE',
+        'NAME': 'workspace2db',
+        'PORT':5432,
+        'PASSWORD':'Mandy@7124',
         'USER': 'postgres',
-        'HOST' : 'roundhouse.proxy.rlwy.net',
+        'HOST' : '127.0.0.1',
     }
 }
 
